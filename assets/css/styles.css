@@ -1,14 +1,18 @@
 :root{
   --primary:#0d3b66;
-  --accent:#2ecc71;
+  --accent:#24a148;
   --light:#f7f9fc;
+
+  --bs-font-sans-serif: 'Poppins', system-ui, -apple-system, sans-serif;
 }
 #submit{
   background-color: var(--primary);
   color: var(--light);
 }
 /* GLOBAL */
-body{font-family:system-ui,sans-serif;}
+body{
+  font-family: var(--bs-font-sans-serif);
+}
 section{padding:90px 0;}
 h2{font-weight:700;color:var(--primary);}
 .badge-line{color:var(--accent);font-size:.75rem;font-weight:700;letter-spacing:1px}
@@ -31,7 +35,7 @@ h2{font-weight:700;color:var(--primary);}
   padding-top:130px;
   color:#fff;
   background:
-    radial-gradient(circle at top right,#2ecc71 0%,transparent 30%),
+    radial-gradient(circle at top right,#24a148 0%,transparent 30%),
     linear-gradient(135deg,#0d3b66,#3f6f9b);
 }
 .hero h1{font-size:3.3rem;font-weight:800;line-height:1.15}
@@ -107,12 +111,12 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .about-icon.blue { background: #0d3b66; }
-.about-icon.green { background: #2ecc71; }
+.about-icon.green { background: #24a148; }
 
 .about-card h6 {
   font-weight: 700;
   margin-bottom: 10px;
-  color: #111;
+  color: #383434;
 }
 
 .about-card p {
@@ -149,7 +153,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .core-icon.blue { background: #0d3b66; }
-.core-icon.green { background: #2ecc71; }
+.core-icon.green { background: #24a148; }
 
 .core-card h6 {
   font-weight: 700;
@@ -316,15 +320,15 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .philosophy-quote p {
-  font-style: italic;
-  font-size: 1rem;
+  font-style: Poppins;
+  font-size: 1.5rem;
   color: var(--primary);
   margin-bottom: 8px;
 }
 
 .philosophy-quote strong {
-  font-size: 0.85rem;
-  color: #6c757d;
+  font-size: 0.9rem;
+  color: #606161;
 }
 
 
@@ -343,7 +347,7 @@ h2{font-weight:700;color:var(--primary);}
 .why-years {
   font-size: 3.2rem;
   font-weight: 800;
-  color: #2ecc71;
+  color: #24a148;
   line-height: 1;
 }
 
@@ -359,7 +363,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .why-stat.highlight h6 {
-  color: #2ecc71;
+  color: #24a148;
 }
 
 .why-side-card {
@@ -381,7 +385,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .icon.blue { background: #0d3b66; }
-.icon.green { background: #2ecc71; }
+.icon.green { background: #24a148; }
 .icon.navy { background: #0a2a4a; }
 
 .why-side-card h6 {
@@ -410,7 +414,7 @@ h2{font-weight:700;color:var(--primary);}
   background: linear-gradient(180deg, #1b1b1b, #0f0f0f);
   color: #c7c7c7;
   padding: 80px 0 25px;
-  font-family: Inter, sans-serif;
+  font-family: var(--bs-font-sans-serif);
 }
 
 .footer-container {
@@ -472,7 +476,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .footer-col ul a:hover {
-  color: #2ecc71;
+  color: #24a148;
 }
 
 /* Newsletter */
@@ -501,7 +505,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .newsletter-box button {
-  background: #2ecc71;
+  background: #24a148;
   border: none;
   padding: 0 18px;
   font-size: 18px;
@@ -523,8 +527,8 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .social-icons a:hover {
-  background: #2ecc71;
-  border-color: #2ecc71;
+  background: #24a148;
+  border-color: #24a148;
   color: #fff;
 }
 
@@ -550,7 +554,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .bottom-links a:hover {
-  color: #2ecc71;
+  color: #24a148;
 }
 
 /* Chat Button */
@@ -637,7 +641,7 @@ h2{font-weight:700;color:var(--primary);}
 
 .hero-badge {
   font-size: 0.75rem;
-  color: #2ecc71;
+  color: #24a148;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -650,7 +654,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .hero-main h1 span {
-  color: #2ecc71;
+  color: #24a148;
 }
 
 .hero-text {
@@ -676,7 +680,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .hero-link {
-  color: #2ecc71;
+  color: #24a148;
   font-weight: 600;
   text-decoration: none;
 }
@@ -703,7 +707,7 @@ h2{font-weight:700;color:var(--primary);}
 }
 
 .hero-card .growth {
-  color: #2ecc71;
+  color: #24a148;
   font-weight: 700;
 }
 
@@ -717,7 +721,7 @@ h2{font-weight:700;color:var(--primary);}
 .shape-1 {
   width: 260px;
   height: 260px;
-  background: #2ecc71;
+  background: #24a148;
   right: 140px;
   top: 220px;
   transform: rotate(15deg);
@@ -819,4 +823,20 @@ h2{font-weight:700;color:var(--primary);}
     transform: rotate(360deg);
   }
 }
+/* WATERMARK NUMBER */
+.service-text {
+  position: relative;
+}
 
+.service-watermark {
+  position: absolute;
+  top: -40px;
+  left: -10px;
+  font-size: 120px;
+  font-weight: 800;
+  color: #0b2c5d;
+  opacity: 0.1;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+}

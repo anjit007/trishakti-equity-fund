@@ -1,9 +1,11 @@
-// Navbar scroll effect
-window.addEventListener("scroll", () => {
-  document.querySelector(".navbar")
-    .classList.toggle("scrolled", window.scrollY > 80);
+window.addEventListener('scroll', () => {
+  const navbar = document.querySelector('.navbar');
+  if (window.scrollY > 10) {  // Adjust this value if your hero section is taller/shorter
+    navbar.classList.add('scrolled');
+  } else {
+    navbar.classList.remove('scrolled');
+  }
 });
-
 // Character counter
 const messageInput = document.getElementById("message");
 const charCount = document.getElementById("charCount");
@@ -16,7 +18,7 @@ messageInput.addEventListener("input", () => {
   // Prevent exceeding 500 characters
   if (currentLength > 500) {
     messageInput.value = messageInput.value.slice(0, 500);
-    charCount.textContent = "500/500 characters";  // Update to the max count
+    charCount.textContent = "500/500 characters"; 
   }
 });
 
