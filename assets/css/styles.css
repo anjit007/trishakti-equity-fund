@@ -100,7 +100,7 @@ h2{font-weight:700;color:var(--primary);}
   padding: 32px;
   box-shadow: 0 18px 40px rgba(0,0,0,.08);
   height: 100%;
-  text-align: left;
+  text-align: center;
 }
 
 .about-icon {
